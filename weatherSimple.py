@@ -3,6 +3,7 @@ from sense_hat import SenseHat
 import time
 import sys
 sense = SenseHat()
+sense.set_rotation(180)
 sense.clear()
 try:
         while True:
